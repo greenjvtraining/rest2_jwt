@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Join Page</title>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link href="https://getbootstrap.com/docs/4.0/examples/signin/signin.css" rel="stylesheet" integrity="sha384-oOE/3m0LUMPub4kaC09mrdEhIc+e3exm4xOGxAmuFXhBNF4hcg/6MiAXAf5p0P56" crossorigin="anonymous"/>
+</head>
+<body>
+<h1>Join Page</h1>
+<hr>
+<div class="container">
+	<form class="form-signin" action="/joinProc" method="post">
+	<h2 class="form-signin-heading">Please Write in</h2>
+		<input type="text" name="username" class="form-control" placeholder="Input id......"><br>
+		<input type="password" name="password" class="form-control" placeholder="Input pw....."><br>
+		<!--  <input type="text" name="nickname" class="form-control" placeholder="Input nickname........."><br>-->
+		<input type="submit" class="btn btn-lg btn-primary btn-block" name="회원등록">
+	</form>
+</div>
+<hr>
+<a href="/">처음으로 가기</a>
+</body>
+</html>

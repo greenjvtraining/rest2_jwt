@@ -1,0 +1,314 @@
+2024-06-01 17:45:48 - Starting SecJwtApplication using Java 17.0.10 with PID 27624 (C:\ws422_2\sec_jwt\bin\main started by asin in C:\ws422_2\sec_jwt)
+2024-06-01 17:45:48 - No active profile set, falling back to 1 default profile: "default"
+2024-06-01 17:45:49 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-01 17:45:49 - Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2024-06-01 17:45:49 - Tomcat initialized with port 8080 (http)
+2024-06-01 17:45:49 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-01 17:45:49 - Starting service [Tomcat]
+2024-06-01 17:45:49 - Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-01 17:45:49 - Initializing Spring embedded WebApplicationContext
+2024-06-01 17:45:49 - Root WebApplicationContext: initialization completed in 1389 ms
+2024-06-01 17:45:49 - Driver class org.mariadb.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2e5c649
+2024-06-01 17:45:49 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-01 17:45:49 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-01 17:45:49 - HHH000026: Second-level cache disabled
+2024-06-01 17:45:50 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-01 17:45:50 - HikariPool-1 - configuration:
+2024-06-01 17:45:50 - allowPoolSuspension.............false
+2024-06-01 17:45:50 - autoCommit......................true
+2024-06-01 17:45:50 - catalog.........................none
+2024-06-01 17:45:50 - connectionInitSql...............none
+2024-06-01 17:45:50 - connectionTestQuery.............none
+2024-06-01 17:45:50 - connectionTimeout...............30000
+2024-06-01 17:45:50 - dataSource......................none
+2024-06-01 17:45:50 - dataSourceClassName.............none
+2024-06-01 17:45:50 - dataSourceJNDI..................none
+2024-06-01 17:45:50 - dataSourceProperties............{password=<masked>}
+2024-06-01 17:45:50 - driverClassName................."org.mariadb.jdbc.Driver"
+2024-06-01 17:45:50 - exceptionOverrideClassName......none
+2024-06-01 17:45:50 - healthCheckProperties...........{}
+2024-06-01 17:45:50 - healthCheckRegistry.............none
+2024-06-01 17:45:50 - idleTimeout.....................600000
+2024-06-01 17:45:50 - initializationFailTimeout.......1
+2024-06-01 17:45:50 - isolateInternalQueries..........false
+2024-06-01 17:45:50 - jdbcUrl.........................jdbc:mariadb://localhost:3306/common
+2024-06-01 17:45:50 - keepaliveTime...................0
+2024-06-01 17:45:50 - leakDetectionThreshold..........0
+2024-06-01 17:45:50 - maxLifetime.....................1800000
+2024-06-01 17:45:50 - maximumPoolSize.................10
+2024-06-01 17:45:50 - metricRegistry..................none
+2024-06-01 17:45:50 - metricsTrackerFactory...........none
+2024-06-01 17:45:50 - minimumIdle.....................10
+2024-06-01 17:45:50 - password........................<masked>
+2024-06-01 17:45:50 - poolName........................"HikariPool-1"
+2024-06-01 17:45:50 - readOnly........................false
+2024-06-01 17:45:50 - registerMbeans..................false
+2024-06-01 17:45:50 - scheduledExecutor...............none
+2024-06-01 17:45:50 - schema..........................none
+2024-06-01 17:45:50 - threadFactory...................internal
+2024-06-01 17:45:50 - transactionIsolation............default
+2024-06-01 17:45:50 - username........................"root"
+2024-06-01 17:45:50 - validationTimeout...............5000
+2024-06-01 17:45:50 - HikariPool-1 - Starting...
+2024-06-01 17:45:50 - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@527d48db
+2024-06-01 17:45:50 - HikariPool-1 - Start completed.
+2024-06-01 17:45:50 - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2024-06-01 17:45:50 - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@27417c93
+2024-06-01 17:45:50 - HikariPool-1 - After adding stats (total=2, active=0, idle=2, waiting=0)
+2024-06-01 17:45:50 - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@72fced51
+2024-06-01 17:45:50 - HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2024-06-01 17:45:50 - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@133d96b4
+2024-06-01 17:45:50 - HikariPool-1 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2024-06-01 17:45:50 - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@4e25697d
+2024-06-01 17:45:50 - HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2024-06-01 17:45:50 - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@33c8da5d
+2024-06-01 17:45:50 - HikariPool-1 - After adding stats (total=6, active=0, idle=6, waiting=0)
+2024-06-01 17:45:50 - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@6033850c
+2024-06-01 17:45:50 - HikariPool-1 - After adding stats (total=7, active=0, idle=7, waiting=0)
+2024-06-01 17:45:50 - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@2252ed05
+2024-06-01 17:45:50 - HikariPool-1 - After adding stats (total=8, active=0, idle=8, waiting=0)
+2024-06-01 17:45:50 - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@231bcb66
+2024-06-01 17:45:50 - HikariPool-1 - After adding stats (total=9, active=0, idle=9, waiting=0)
+2024-06-01 17:45:50 - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@11dc80a6
+2024-06-01 17:45:50 - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2024-06-01 17:45:51 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-01 17:45:52 - 
+    create table member (
+        mno integer not null auto_increment,
+        nickname varchar(255),
+        password varchar(255),
+        role varchar(255),
+        username varchar(255),
+        primary key (mno)
+    ) engine=InnoDB
+2024-06-01 17:45:52 - 
+    alter table if exists member 
+       drop index if exists UKgc3jmn7c2abyo3wf6syln5t2i
+2024-06-01 17:45:52 - 
+    alter table if exists member 
+       add constraint UKgc3jmn7c2abyo3wf6syln5t2i unique (username)
+2024-06-01 17:45:52 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-01 17:45:52 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-01 17:45:52 - Adding welcome page template: index
+2024-06-01 17:45:52 - 
+
+Using generated security password: d15f93c9-c00b-47ea-8539-bde4b94408d1
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-06-01 17:45:52 - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-06-01 17:45:52 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1e987f59, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@192aeae2, org.springframework.security.web.context.SecurityContextHolderFilter@411576c7, org.springframework.security.web.header.HeaderWriterFilter@267a8777, org.springframework.web.filter.CorsFilter@4ee1c29a, org.springframework.security.web.csrf.CsrfFilter@30bfdcc5, org.springframework.security.web.authentication.logout.LogoutFilter@d62feaf, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4abb4041, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@c76762, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@28d1b2f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@58ebfbcb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@45bbb3e8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@13976c57, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5f32de90, org.springframework.security.web.access.ExceptionTranslationFilter@68c3aa38, org.springframework.security.web.access.intercept.AuthorizationFilter@28b47211]
+2024-06-01 17:45:53 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-01 17:45:53 - Tomcat started on port 8080 (http) with context path '/'
+2024-06-01 17:45:53 - Started SecJwtApplication in 5.413 seconds (process running for 6.272)
+2024-06-01 17:46:01 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-01 17:46:01 - Initializing Servlet 'dispatcherServlet'
+2024-06-01 17:46:01 - Completed initialization in 2 ms
+2024-06-01 17:46:01 - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [111] milliseconds.
+2024-06-01 17:46:20 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-06-01 17:46:20 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-06-01 17:46:50 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-06-01 17:46:50 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-06-01 17:47:04 - Application shutdown requested.
+2024-06-01 17:47:04 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-06-01 17:47:04 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-01 17:47:04 - HikariPool-1 - Shutdown initiated...
+2024-06-01 17:47:04 - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-06-01 17:47:04 - HikariPool-1 - Closing connection org.mariadb.jdbc.Connection@527d48db: (connection evicted)
+2024-06-01 17:47:04 - HikariPool-1 - Closing connection org.mariadb.jdbc.Connection@27417c93: (connection evicted)
+2024-06-01 17:47:04 - HikariPool-1 - Closing connection org.mariadb.jdbc.Connection@72fced51: (connection evicted)
+2024-06-01 17:47:04 - HikariPool-1 - Closing connection org.mariadb.jdbc.Connection@133d96b4: (connection evicted)
+2024-06-01 17:47:04 - HikariPool-1 - Closing connection org.mariadb.jdbc.Connection@4e25697d: (connection evicted)
+2024-06-01 17:47:04 - HikariPool-1 - Closing connection org.mariadb.jdbc.Connection@33c8da5d: (connection evicted)
+2024-06-01 17:47:04 - HikariPool-1 - Closing connection org.mariadb.jdbc.Connection@6033850c: (connection evicted)
+2024-06-01 17:47:04 - HikariPool-1 - Closing connection org.mariadb.jdbc.Connection@2252ed05: (connection evicted)
+2024-06-01 17:47:04 - HikariPool-1 - Closing connection org.mariadb.jdbc.Connection@231bcb66: (connection evicted)
+2024-06-01 17:47:04 - HikariPool-1 - Closing connection org.mariadb.jdbc.Connection@11dc80a6: (connection evicted)
+2024-06-01 17:47:04 - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-06-01 17:47:04 - HikariPool-1 - Shutdown completed.
+2024-06-01 17:47:07 - Starting SecJwtApplication using Java 17.0.10 with PID 20256 (C:\ws422_2\sec_jwt\bin\main started by asin in C:\ws422_2\sec_jwt)
+2024-06-01 17:47:07 - No active profile set, falling back to 1 default profile: "default"
+2024-06-01 17:47:08 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-01 17:47:08 - Finished Spring Data repository scanning in 24 ms. Found 0 JPA repository interfaces.
+2024-06-01 17:47:09 - Tomcat initialized with port 8080 (http)
+2024-06-01 17:47:09 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-01 17:47:09 - Starting service [Tomcat]
+2024-06-01 17:47:09 - Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-01 17:47:09 - Initializing Spring embedded WebApplicationContext
+2024-06-01 17:47:09 - Root WebApplicationContext: initialization completed in 2209 ms
+2024-06-01 17:47:10 - Driver class org.mariadb.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@2e5c649
+2024-06-01 17:47:10 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-01 17:47:10 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-06-01 17:47:10 - HHH000026: Second-level cache disabled
+2024-06-01 17:47:10 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-01 17:47:10 - HikariPool-1 - configuration:
+2024-06-01 17:47:10 - allowPoolSuspension.............false
+2024-06-01 17:47:10 - autoCommit......................true
+2024-06-01 17:47:10 - catalog.........................none
+2024-06-01 17:47:10 - connectionInitSql...............none
+2024-06-01 17:47:10 - connectionTestQuery.............none
+2024-06-01 17:47:10 - connectionTimeout...............30000
+2024-06-01 17:47:10 - dataSource......................none
+2024-06-01 17:47:10 - dataSourceClassName.............none
+2024-06-01 17:47:10 - dataSourceJNDI..................none
+2024-06-01 17:47:10 - dataSourceProperties............{password=<masked>}
+2024-06-01 17:47:10 - driverClassName................."org.mariadb.jdbc.Driver"
+2024-06-01 17:47:10 - exceptionOverrideClassName......none
+2024-06-01 17:47:10 - healthCheckProperties...........{}
+2024-06-01 17:47:10 - healthCheckRegistry.............none
+2024-06-01 17:47:10 - idleTimeout.....................600000
+2024-06-01 17:47:10 - initializationFailTimeout.......1
+2024-06-01 17:47:10 - isolateInternalQueries..........false
+2024-06-01 17:47:10 - jdbcUrl.........................jdbc:mariadb://localhost:3306/common
+2024-06-01 17:47:10 - keepaliveTime...................0
+2024-06-01 17:47:10 - leakDetectionThreshold..........0
+2024-06-01 17:47:10 - maxLifetime.....................1800000
+2024-06-01 17:47:10 - maximumPoolSize.................10
+2024-06-01 17:47:10 - metricRegistry..................none
+2024-06-01 17:47:10 - metricsTrackerFactory...........none
+2024-06-01 17:47:10 - minimumIdle.....................10
+2024-06-01 17:47:10 - password........................<masked>
+2024-06-01 17:47:10 - poolName........................"HikariPool-1"
+2024-06-01 17:47:10 - readOnly........................false
+2024-06-01 17:47:10 - registerMbeans..................false
+2024-06-01 17:47:10 - scheduledExecutor...............none
+2024-06-01 17:47:10 - schema..........................none
+2024-06-01 17:47:10 - threadFactory...................internal
+2024-06-01 17:47:10 - transactionIsolation............default
+2024-06-01 17:47:10 - username........................"root"
+2024-06-01 17:47:10 - validationTimeout...............5000
+2024-06-01 17:47:10 - HikariPool-1 - Starting...
+2024-06-01 17:47:10 - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@6f1d799
+2024-06-01 17:47:10 - HikariPool-1 - Start completed.
+2024-06-01 17:47:11 - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2024-06-01 17:47:11 - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@75b67075
+2024-06-01 17:47:11 - HikariPool-1 - After adding stats (total=2, active=0, idle=2, waiting=0)
+2024-06-01 17:47:11 - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@20595456
+2024-06-01 17:47:11 - HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2024-06-01 17:47:11 - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@199d42cd
+2024-06-01 17:47:11 - HikariPool-1 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2024-06-01 17:47:11 - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@66923965
+2024-06-01 17:47:11 - HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2024-06-01 17:47:11 - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@7a5916a4
+2024-06-01 17:47:11 - HikariPool-1 - After adding stats (total=6, active=0, idle=6, waiting=0)
+2024-06-01 17:47:11 - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@22c45936
+2024-06-01 17:47:11 - HikariPool-1 - After adding stats (total=7, active=0, idle=7, waiting=0)
+2024-06-01 17:47:11 - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@58c83d3f
+2024-06-01 17:47:11 - HikariPool-1 - After adding stats (total=8, active=0, idle=8, waiting=0)
+2024-06-01 17:47:11 - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@140ab0fa
+2024-06-01 17:47:11 - HikariPool-1 - After adding stats (total=9, active=0, idle=9, waiting=0)
+2024-06-01 17:47:11 - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@6830d5c5
+2024-06-01 17:47:11 - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2024-06-01 17:47:12 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-01 17:47:12 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-01 17:47:12 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-01 17:47:12 - Adding welcome page template: index
+2024-06-01 17:47:13 - 
+
+Using generated security password: 90b631ec-2489-4e72-8061-43b9d22c4471
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-06-01 17:47:13 - Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2024-06-01 17:47:13 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5af7e2f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2df24f19, org.springframework.security.web.context.SecurityContextHolderFilter@4b3e4253, org.springframework.security.web.header.HeaderWriterFilter@395c21ee, org.springframework.web.filter.CorsFilter@c76762, org.springframework.security.web.csrf.CsrfFilter@1a82453, org.springframework.security.web.authentication.logout.LogoutFilter@1e9b0c92, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@11c40a65, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@363e2009, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5318731f, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@13976c57, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@141c66db, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@389a9ff6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2db82155, org.springframework.security.web.access.ExceptionTranslationFilter@5c648e38, org.springframework.security.web.access.intercept.AuthorizationFilter@26723525]
+2024-06-01 17:47:13 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-01 17:47:13 - Tomcat started on port 8080 (http) with context path '/'
+2024-06-01 17:47:13 - Started SecJwtApplication in 6.822 seconds (process running for 8.176)
+2024-06-01 17:47:41 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-06-01 17:47:41 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-06-01 17:48:11 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-06-01 17:48:11 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-06-01 17:48:41 - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-06-01 17:48:41 - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-06-01 17:48:43 - Application shutdown requested.
+2024-06-01 17:48:43 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-06-01 17:48:43 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-01 17:48:43 - HikariPool-1 - Shutdown initiated...
+2024-06-01 17:48:43 - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-06-01 17:48:43 - HikariPool-1 - Closing connection org.mariadb.jdbc.Connection@6f1d799: (connection evicted)
+2024-06-01 17:48:43 - HikariPool-1 - Closing connection org.mariadb.jdbc.Connection@75b67075: (connection evicted)
+2024-06-01 17:48:43 - HikariPool-1 - Closing connection org.mariadb.jdbc.Connection@20595456: (connection evicted)
+2024-06-01 17:48:43 - HikariPool-1 - Closing connection org.mariadb.jdbc.Connection@199d42cd: (connection evicted)
+2024-06-01 17:48:43 - HikariPool-1 - Closing connection org.mariadb.jdbc.Connection@66923965: (connection evicted)
+2024-06-01 17:48:43 - HikariPool-1 - Closing connection org.mariadb.jdbc.Connection@7a5916a4: (connection evicted)
+2024-06-01 17:48:43 - HikariPool-1 - Closing connection org.mariadb.jdbc.Connection@22c45936: (connection evicted)
+2024-06-01 17:48:43 - HikariPool-1 - Closing connection org.mariadb.jdbc.Connection@58c83d3f: (connection evicted)
+2024-06-01 17:48:43 - HikariPool-1 - Closing connection org.mariadb.jdbc.Connection@140ab0fa: (connection evicted)
+2024-06-01 17:48:43 - HikariPool-1 - Closing connection org.mariadb.jdbc.Connection@6830d5c5: (connection evicted)
+2024-06-01 17:48:43 - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-06-01 17:48:43 - HikariPool-1 - Shutdown completed.
+2024-06-01 17:48:45 - Starting SecJwtApplication using Java 17.0.10 with PID 9636 (C:\ws422_2\sec_jwt\bin\main started by asin in C:\ws422_2\sec_jwt)
+2024-06-01 17:48:45 - No active profile set, falling back to 1 default profile: "default"
+2024-06-01 17:48:46 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-01 17:48:46 - Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+2024-06-01 17:48:47 - Tomcat initialized with port 8080 (http)
+2024-06-01 17:48:47 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-01 17:48:47 - Starting service [Tomcat]
+2024-06-01 17:48:47 - Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-01 17:48:47 - Initializing Spring embedded WebApplicationContext
+2024-06-01 17:48:47 - Root WebApplicationContext: initialization completed in 1756 ms
+2024-06-01 17:48:47 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-01 17:48:47 - HHH000412: Hibernate ORM core version 6.4.8.Final
+2024-06-01 17:48:47 - HHH000026: Second-level cache disabled
+2024-06-01 17:48:47 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-01 17:48:48 - HikariPool-1 - Starting...
+2024-06-01 17:48:48 - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@ff1f465
+2024-06-01 17:48:48 - HikariPool-1 - Start completed.
+2024-06-01 17:48:49 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-01 17:48:49 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-01 17:48:49 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-01 17:48:49 - Adding welcome page template: index
+2024-06-01 17:48:49 - 
+
+Using generated security password: 1f1dca7a-b177-4d16-9324-f6c0d194b2ce
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-06-01 17:48:50 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@543c887, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@75f446df, org.springframework.security.web.context.SecurityContextHolderFilter@76ebd595, org.springframework.security.web.header.HeaderWriterFilter@62ba3045, org.springframework.web.filter.CorsFilter@3751baf6, org.springframework.security.web.csrf.CsrfFilter@20276412, org.springframework.security.web.authentication.logout.LogoutFilter@3ef7fb04, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@601e7c97, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5fe4848, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@27e656e6, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4e0139, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@225fb75e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@61d9dd15, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3cfab56d, org.springframework.security.web.access.ExceptionTranslationFilter@79080255, org.springframework.security.web.access.intercept.AuthorizationFilter@151f1734]
+2024-06-01 17:48:50 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-01 17:48:50 - Tomcat started on port 8080 (http) with context path ''
+2024-06-01 17:48:50 - Started SecJwtApplication in 5.424 seconds (process running for 6.337)
+2024-06-01 17:48:59 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-01 17:48:59 - Initializing Servlet 'dispatcherServlet'
+2024-06-01 17:48:59 - Completed initialization in 1 ms
+2024-06-01 17:50:02 - Application shutdown requested.
+2024-06-01 17:50:02 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-06-01 17:50:02 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-01 17:50:02 - HikariPool-1 - Shutdown initiated...
+2024-06-01 17:50:02 - HikariPool-1 - Shutdown completed.
+2024-06-01 17:50:04 - Starting SecJwtApplication using Java 17.0.10 with PID 30536 (C:\ws422_2\sec_jwt\bin\main started by asin in C:\ws422_2\sec_jwt)
+2024-06-01 17:50:04 - No active profile set, falling back to 1 default profile: "default"
+2024-06-01 17:50:06 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-06-01 17:50:06 - Finished Spring Data repository scanning in 28 ms. Found 0 JPA repository interfaces.
+2024-06-01 17:50:07 - Tomcat initialized with port 8080 (http)
+2024-06-01 17:50:07 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-06-01 17:50:07 - Starting service [Tomcat]
+2024-06-01 17:50:07 - Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-01 17:50:07 - Initializing Spring embedded WebApplicationContext
+2024-06-01 17:50:07 - Root WebApplicationContext: initialization completed in 2405 ms
+2024-06-01 17:50:07 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-06-01 17:50:07 - HHH000412: Hibernate ORM core version 6.4.8.Final
+2024-06-01 17:50:07 - HHH000026: Second-level cache disabled
+2024-06-01 17:50:08 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-06-01 17:50:08 - HikariPool-1 - Starting...
+2024-06-01 17:50:08 - HikariPool-1 - Added connection org.mariadb.jdbc.Connection@370225c7
+2024-06-01 17:50:08 - HikariPool-1 - Start completed.
+2024-06-01 17:50:09 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-06-01 17:50:09 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-06-01 17:50:09 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-06-01 17:50:09 - Adding welcome page template: index
+2024-06-01 17:50:10 - 
+
+Using generated security password: c43b22f4-883a-404c-addf-61fe78cc9e62
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-06-01 17:50:10 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@73c1dda3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@c3c63c1, org.springframework.security.web.context.SecurityContextHolderFilter@fd5c7f6, org.springframework.security.web.header.HeaderWriterFilter@7be86438, org.springframework.web.filter.CorsFilter@5e75cf7a, org.springframework.security.web.csrf.CsrfFilter@3006aef5, org.springframework.security.web.authentication.logout.LogoutFilter@1f7b1d6a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4e0139, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@5f596a1a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6f12fca0, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@441762b8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@40ef1934, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@291522f1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@12c30824, org.springframework.security.web.access.ExceptionTranslationFilter@b4c89b6, org.springframework.security.web.access.intercept.AuthorizationFilter@211cf27b]
+2024-06-01 17:50:10 - Starting ProtocolHandler ["http-nio-8080"]
+2024-06-01 17:50:10 - Tomcat started on port 8080 (http) with context path ''
+2024-06-01 17:50:10 - Started SecJwtApplication in 6.402 seconds (process running for 7.27)
+2024-06-01 17:50:23 - Application shutdown requested.
+2024-06-01 17:50:23 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-06-01 17:50:23 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-06-01 17:50:23 - HikariPool-1 - Shutdown initiated...
+2024-06-01 17:50:23 - HikariPool-1 - Shutdown completed.
